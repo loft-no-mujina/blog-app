@@ -1,10 +1,10 @@
-/* html, body,
+html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
 form, input, div {
   margin: 0;
   padding: 0;
-} */
+}
 
 li {
   list-style: none;
@@ -13,13 +13,14 @@ li {
 
 header {
   position: fixed;
-  height: 50px;
+  height: 100px;
   width: 100%;
+  background-color: green;
 
 }
 
-.header__bar row {
-  height: 100%;
+.header__bar.row {
+  height: 100px;
   width: 100%;
   float: left;
 
@@ -28,7 +29,7 @@ header {
 
 .contents {
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 100px;
   height: 100%;
   width: 100%;
 }
@@ -37,12 +38,11 @@ header {
   float: left;
 }
 
-.user_nav grid-6 {
+.user_nav.grid-6 {
   float: right;
-  width: 100%;
 }
 
-span {
+.span {
   
 }
 
@@ -55,6 +55,7 @@ li {
 }
 
 .more {
+  
 
 }
 
@@ -73,7 +74,7 @@ li {
 
 
 .content_post {
-  
+  height: 100%;
 }
 
 
